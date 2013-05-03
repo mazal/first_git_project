@@ -1,0 +1,101 @@
+<!DOCTYPE README.txt>
+2013.MAY-02 / mbb
+
+
+
+	/*
+	* --------------------------------------------------------------------------
+	*	application : basic v1
+	* --------------------------------------------------------------------------
+	*	Author:		mazal bohbot berrie
+	*	Project:	first_git_project
+	*	File:		README.txt		~/Sites/_dev/2013/MAY/first_git_project/README.txt
+	*	Date:		2013-MAY-02
+	* --------------------------------------------------------------------------
+	*
+	*		Description : git 'commit message' best practices
+	*		Goal : keep record of best practices
+	*
+	* --------------------------------------------------------------------------
+	*/
+
+
+
+	commit message best practices
+	******************************
+	
+	* short single-line summary.
+	  less than 50 character.
+
+	* followed by a blank line.
+	
+	* then a more complete description.
+	  less than 72 characters.
+
+	* write commit messages in the present tense, not in the past. 
+	  (You are labeling *what this commit does*, not what you--as 
+	  the creator--were doing. Label what it does). 
+	  	- "fix bug" or "fixes bug," not "I fixed a bug".
+
+	* bullet points that describe what happens usually use 
+	  asterisk or hyphens.
+
+	* can add "ticket tracking numbers" from bugs or support 
+	  requests. 
+
+	* can develop shorthand for your organization, i.e.
+		- "[css,js]" square brackets at the beginning of your 
+		  message that you are messing with the CSS or the JavaScript 
+		- "bugfix:"
+		- "#38405-"tracking number in the front letting it know 
+		  what sort of support request ticket it goes with.
+
+	sample:
+	
+	t23094 - Fixes bug in admin logout.								< 50 - first line
+
+	When an admin logged out of the admin area, they 				< 72
+	could not log in to the members area because their 				< 72
+	session[:user_id] was still set to the admin ID. This patch 	< 72
+	fixes the bug by setting session[:user_id] to nil when 			< 72
+	any user logs out of any area. 									< 72
+
+
+
+
+	These kinds of decisions are personal preferences 
+	your organization will need	to decide on. good idea 
+	to pick standards and stick with them so everyone 
+	working on repository is using same set of 
+	conventions for their commit messages. 
+
+	* be clear and descriptive :
+	
+		- Good: added file to project
+		  (more descriptive saying that we added this first file.
+		
+		- Good: added JavaScript to something
+		
+		- Good: fixex this bug..
+
+		- Bad: "Fix typo"
+		- Good: "Add missing > in project section of HTML"
+
+		- Bad: "Update login code"
+		- Good: "Change user authentication to use Blowfish"
+
+		- Bad: "Updates member report, we should discuss if this is right next week".
+		- Good: 
+
+
+
+
+
+				
+	* --------------------------------------------------------------------------
+	CITATION and/or SOURCE : names, ideas, resources of note; memory trace, bread crumbs.. attribution
+
+	2013.MAY.02
+		* http://www.lynda.com/Git-Essential-Training/100222-2.html
+		* GIT Essential Training/skoglund/lynda.com
+		* chapter 3.4 - Writing commit messages.
