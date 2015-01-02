@@ -2,22 +2,22 @@
 2013.MAY-02 / mbb
 
 
-
-	/*
-	* --------------------------------------------------------------------------
-	*	application : basic v1
-	* --------------------------------------------------------------------------
-	*	Author:		mazal bohbot berrie
-	*	Project:	first_git_project
-	*	File:		README.txt		~/Sites/_dev/2013/MAY/first_git_project/README.txt
-	*	Date:		2013-MAY-02
-	* --------------------------------------------------------------------------
-	*
-	*		Description : git 'commit message' best practices
-	*		Goal : keep record of best practices
-	*
-	* --------------------------------------------------------------------------
-	*/
+/*
+ * --------------------------------------------------------------------------
+ *	application : basic v1
+ * --------------------------------------------------------------------------
+ *	Author:    mazal bohbot berrie
+ *	Project:   first_git_project
+ *	File:      README.txt
+    ~/Sites/_dev/2013/MAY/first_git_project/README.txt
+ *  Date:     2013-MAY-02
+ * --------------------------------------------------------------------------
+ * 
+ *  Description : git 'commit message' best practices
+ *  Goal : keep record of best practices
+ * 
+ * --------------------------------------------------------------------------
+ */
 
 
 
@@ -44,21 +44,21 @@
 	  requests. 
 
 	* can develop shorthand for your organization, i.e.
-		- "[css,js]" square brackets at the beginning of your 
-		  message that you are messing with the CSS or the JavaScript 
-		- "bugfix:"
-		- "#38405-"tracking number in the front letting it know 
+        - "[css,js]" square brackets at the beginning of your 
+          message that you are messing with the CSS or the JavaScript 
+        - "bugfix:"
+        - "#38405-"tracking number in the front letting it know 
 		  what sort of support request ticket it goes with.
 
 	sample:
 	
-	t23094 - Fixes bug in admin logout.								< 50 - first line
+	t23094 - Fixes bug in admin logout.                   < 50 - first line
 
-	When an admin logged out of the admin area, they 				< 72
-	could not log in to the members area because their 				< 72
-	session[:user_id] was still set to the admin ID. This patch 	< 72
-	fixes the bug by setting session[:user_id] to nil when 			< 72
-	any user logs out of any area. 									< 72
+	When an admin logged out of the admin area, they      < 72
+	could not log in to the members area because their    < 72
+	session[:user_id] was still set to the admin ID.      < 72
+	This patch fixes the bug by setting session[:user_id] < 72
+  to nil when any user logs out of any area.            < 72
 
 
 
@@ -87,11 +87,6 @@
 		- Bad: "Updates member report, we should discuss if this is right next week".
 		- Good: 
 
-
-
-
-
-				
 	* --------------------------------------------------------------------------
 	CITATION and/or SOURCE : names, ideas, resources of note; memory trace, bread crumbs.. attribution
 
