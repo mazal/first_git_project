@@ -3,13 +3,13 @@
 
 /*
  * --------------------------------------------------------------------------
- *	application : basic v1
+ *    application : basic v1
  * --------------------------------------------------------------------------
- *	Author:    mazal bohbot berrie
- *	Project:   first_git_project
- *	File:      README.txt
-               ~/Sites/_dev/2013/MAY/first_git_project/README.txt
- *  Date:     2013-MAY-02
+ *    Author:    mazal bohbot berrie
+ *    Project:   first_git_project
+ *    File:      README.txt
+                 ~/Sites/_dev/2013/MAY/first_git_project/README.txt
+ *    Date:      2013-MAY-02
  * --------------------------------------------------------------------------
  * 
  *  Description : git 'commit message' best practices
